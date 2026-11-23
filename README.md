@@ -1,2 +1,2 @@
 # LeetCodePractice
-Personal LeetCode Practice
+Personal LeetCode Problems Practice
