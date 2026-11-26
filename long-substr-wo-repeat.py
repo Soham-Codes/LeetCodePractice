@@ -6,8 +6,11 @@ Problem: Given a string s, find the length of the longest contiguous substring t
 You only need to return the length, not the substring itself.
 
 Examples:
-s = "abcabcbb"# Expected: 3s = "bbbbb"
-# Expected: 1s = "pwwkew"
+s = "abcabcbb"
+# Expected: 3
+s = "bbbbb"
+# Expected: 1
+s = "pwwkew"
 # Expected: 3
 
 Function:

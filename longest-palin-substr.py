@@ -7,7 +7,8 @@ A substring consists of consecutive characters. If multiple longest palindromes 
 
 Examples:
 s = "babad"
-# Expected: "bab" or "aba"s = "cbbd"
+# Expected: "bab" or "aba"
+s = "cbbd"
 # Expected: "bb"
 
 Function:
