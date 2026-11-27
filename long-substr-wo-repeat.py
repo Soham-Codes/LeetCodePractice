@@ -20,4 +20,16 @@ def lengthOfLongestSubstring(s):
 Suggested time: 25–35 minutes
 """
 def lengthOfLongestSubstring(s):
-    pass
+    max_streak = 0
+    queue = []
+    for i in range (0, len(s)):
+        char = s[i]
+        while char in queue:
+            queue.pop(0)
+        queue.append(char)
+        current_streak = len(queue)
+        max_streak = max(max_streak, current_streak)
+    return max_streak
+
+s = "abcabcbb"
+print(f"The longest substring without repeating character in {s} is: {lengthOfLongestSubstring(s)}")
